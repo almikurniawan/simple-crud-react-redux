@@ -1,4 +1,6 @@
 
+Installasi :
+# npm install
 
 Pemanggilan komponen table:
 		<XTable header={
