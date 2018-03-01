@@ -5,7 +5,6 @@ import { Provider } from 'react-redux';
 import todoApp from './reducers/reducers';
 import App from './src/App';
 import thunk from 'redux-thunk';
-
 var store = createStore(todoApp, applyMiddleware(thunk));
 
 ReactDOM.render((
